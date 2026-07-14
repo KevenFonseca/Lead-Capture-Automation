@@ -1,5 +1,5 @@
 async function sendData(data) {
-    const apiUrl = 'https://kevenfonseca.app.n8n.cloud/webhook-test/lead'
+    const apiUrl = 'https://kevenfonseca.app.n8n.cloud/webhook/lead'
 
     const response = await fetch(apiUrl, {
         method: "POST",
